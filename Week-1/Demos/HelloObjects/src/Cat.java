@@ -62,9 +62,9 @@ public class Cat {
 
     // setters are perfect for adding validation logic to the data that
     // can be saved in an object
-    public void setName(String name) {
+    public void setName(String name){
         if (name.equals("Rover"))
-            throw new RuntimeException("bad name");
+            throw new WrongNameException("bad name");
         this.name = name;
     }
 

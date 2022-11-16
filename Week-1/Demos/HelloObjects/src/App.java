@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        String name = "Aurynie";
+        String name = "Rover";
         Cat auryn = new Cat();
         auryn.setName(name);
         Cat anotherAuryn = new Cat();
