@@ -21,10 +21,20 @@ public class App {
         System.out.println("Hello World!");
 
         System.out.println(Hello("Hi"));
+        // Arrays - hold a collection of elements of the same data type in a contiguous
+        // memory space
+        // - Index based (index starts at 0)
+        // - Size is static
+        // - Retrieval of elements is pretty quick
         String[] moves = new String[] { "rock", "paper", "scissors" };
         // Scanner class for reading user input
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Choose a move: [0] rock\t [1] paper\t [2] scissors");
+        System.out.println("Choose a move: ");
+        int ctr = 0;
+        for (String move : moves) {
+            System.out.println("[" + ctr + "]" + move);
+            ctr++;
+        }
         String userInput = scanner.nextLine();
         switch (userInput) {
             case "0":
@@ -55,36 +65,6 @@ public class App {
             else
                 System.out.println("Computer wins!");
         }
-        // if (userInput.equals("scissors")) {
-        // if (computerMove.equals("scissors")) {
-        // System.out.println("It's a tie!");
-        // } else if (computerMove.equals("paper")) {
-        // System.out.println("User wins");
-        // } else {
-        // System.out.println("Computer wins");
-        // }
-        // } else if (userInput.equals("paper")) {
-        // if (computerMove.equals("scissors")) {
-        // System.out.println("Computer wins");
-        // } else if (computerMove.equals("paper")) {
-        // System.out.println("It's a tie!");
-        // } else {
-        // System.out.println("User wins");
-        // }
-        // } else {
-        // if (computerMove.equals("scissors")) {
-        // System.out.println("User wins");
-        // } else if (computerMove.equals("paper")) {
-        // System.out.println("Computer wins");
-        // } else {
-        // System.out.println("It's a tie!");
-        // }
-        // }
-
-        // error - A
-        // Hello World! - B
-        // hello - C
-        // Hello World! hello - D
     }
 
     // fun fact! Method params are variables that are scoped to the method

@@ -85,6 +85,13 @@ Another notable method involved with garbage collection is an object's _finalize
 
 For more information, read up on GC in this wonderful [article](https://www.geeksforgeeks.org/garbage-collection-java/).
 
+**Example**
+
+````java
+Object a = new Object(); // obj1
+Object b = new Object(); // obj2
+// The variables a and b contain reference to a memory space
+a = b; //obj1 is no longer being referenced, therefore it is unreachable and is eligible for garbage collection```
 ---
 
 ### Vocab Terms
@@ -102,3 +109,4 @@ For more information, read up on GC in this wonderful [article](https://www.geek
   - [More on stack vs heap](https://www.tutorialspoint.com/difference-between-stack-and-heap-memory-in-java)
 
 ---
+````
