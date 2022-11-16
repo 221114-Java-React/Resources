@@ -1,3 +1,9 @@
+// package the class belongs in
+package models;
+
+// working with other classes that belong in different packages
+import exceptions.WrongNameException;
+
 // Classes
 // In java, you declare a class using the class keyword
 // Naming convention, use PascalCase for classes
@@ -34,7 +40,7 @@ public class Cat {
     public Cat(String name, int age, String color) {
         super(); // calls constructor of parent, technically implicitly called
         // this keyword - this refers to the instance field/variable
-        this.name = name;
+        this.setName(name);
         this.age = age;
         this.color = color;
     }
@@ -62,7 +68,7 @@ public class Cat {
 
     // setters are perfect for adding validation logic to the data that
     // can be saved in an object
-    public void setName(String name){
+    public void setName(String name) {
         if (name.equals("Rover"))
             throw new WrongNameException("bad name");
         this.name = name;

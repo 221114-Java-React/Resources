@@ -1,6 +1,8 @@
+import models.Cat;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        String name = "Rover";
+        String name = "Aurynie";
         Cat auryn = new Cat();
         auryn.setName(name);
         Cat anotherAuryn = new Cat();
