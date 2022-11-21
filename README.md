@@ -1,4 +1,4 @@
-# Welcome to 220808 (year/month/day) Java Enterprise/React!
+# Welcome to 221114 (year/month/day) Java Enterprise/React!
 This is the training repository for the Java Enterprise/React cohort starting August 8th, 2022. All the notes, demos, project guidelines, and other resources will be found here.
 
 > QC is important, because it is intended as a way to simulate the interview process. Therefore, to set yourself up for success, check out this [guide on how to do well](misc/how-to-do-well-in-qc.md)
