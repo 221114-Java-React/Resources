@@ -5,39 +5,14 @@ Normalization is the process of reorganizing data in a database so that it meets
 1. There is no redundancy of data, all data is stored in only one place.
 2. Data dependencies are logical, all related data items are stored together.
 
-Normalization is important for many reason, but chiefly because it allows databases to take up as little disk space as
-possible, resulting in creased performance.
-
-Normalization is also known as data normalization.
-
-The first goal during dta normalization is to detect and remove all duplicate data by logically grouping dta
-redundancies together. Whenever a piece of dta is dependent on another, the two should be stored in proximity within
-that data set.
-
-By getting rid of all anomalies and organizing unstructured data into a structured form, normalization greatly improves
-the usability of a data set. Data can be visualized more easily, insights could be extracted more efficiently, and
-information can be updated more quickly. As redundancies are merged together, the risk of errors and duplicates further
-making data even more disorganized is reduced. On top of all that, a normalized database takes less space, getting rid
-of many disk space problems, and increasing its overall performance significantly.
-
-The three main types of normalization are listed below. Note: "NF" refers to "normal form."
-
-## 1NF - First Normal Form
-
-Tables in 1NF adhere to some rules:
-
-- Each cel must contain only a single (atomic) value
-- Every column in the table must be uniquely named
-- All values in a column must pertain to the same domain
-
-## 2NF - Second Normal Form
-
-Tables in 2NF must be in 1NF and not have any partial dependency (e.g. every non-prime attribute must be dependent on
-the table's primary key)
-
-## 3NF - Third Normal Form
-
-Tables in 3NF mus be in 2NF and have no transitive functional dependencies on the primary key.
+- Ensure **Referential Integrity**
+- Levels of Normalization
+  0. 0 Normal Form: No normalization
+  1. 1st Normal Form: All data must be atomic, and should have a unique identifier
+  2. 2nd Normal Form: Also in 1st plus no partial dependencies
+  - Which means all values must identified by a single column (no composite keys)
+  3. 3rd Normal Form: Also in 2nd plus no transitive dependencies
+  - Which means no column is dependent on a column that is not the primary key
 
 # Data Types
 
