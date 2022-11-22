@@ -18,7 +18,23 @@
     - intro to postgresql
     - P1 demo
 
-## Tuesday - TBD
+## Tuesday
+
+- 10:00 AM EST
+  - coding challenge
+
+
+- 11:30 AM EST
+  - lecture
+    - continue P1 demo
+
+
+- 1:00 PM EST
+  - lunch
+
+
+- 2:00 PM EST
+  - work on P1
 
 ## Wednesday - TBD
 
