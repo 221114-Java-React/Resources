@@ -23,7 +23,31 @@
 
 ## Tuesday - TBD
 
-## Wednesday - TBD
+## Wednesday
+
+- 10:10 AM EST
+  - coding challenges
+
+
+- 11:15 AM EST
+  - go over coding challenges
+
+
+
+- 11:45+ AM EST
+  - P1 hw check
+
+
+- 12:15 PM EST
+  - work on P1
+
+
+- 1:00 PM EST
+  - lunch
+
+
+- 2:00+ PM EST
+  - work on p1
 
 ## Thursday - TBD
 
