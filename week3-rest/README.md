@@ -77,3 +77,27 @@
   - work on p1
 
 ## Friday - TBD
+
+- 10:10 AM EST
+  - coding challenges
+
+
+- 11:15 AM EST
+  - go over coding challenges
+
+
+
+- 11:30 AM EST
+  - hw milestone checkup
+
+
+- 12:00 PM EST
+  - kahoot
+
+
+- 1:00 PM EST
+  - lunch
+
+
+- 2:00+ PM EST
+  - work on p1
