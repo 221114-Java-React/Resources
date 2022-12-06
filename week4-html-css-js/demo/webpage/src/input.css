@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-img {
+    width: 100%;
+    object-fit: cover;
+    height: 1000px;
+}
+
+.profile-left {
+    width: 20%;
+}
