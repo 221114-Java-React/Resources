@@ -1,4 +1,4 @@
-# Week 3 - Javalin/REST
+# Week 4 - HTML, CSS, JS
 
 ## Monday
 - 10:10 AM EST
@@ -11,7 +11,7 @@
 
 - 11:45 AM EST
     - Lecture
-        - HTML, CSS, JS
+        - HTML, CSS
 
 
 - 1:00 PM EST
