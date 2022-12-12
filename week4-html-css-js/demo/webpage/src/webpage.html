@@ -5,73 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../dist/output.css" rel="stylesheet">
-    <title>Bao's Webpage</title>
 </head>
 
 <body>
     <!-- nav bar -->
-    <nav class="flex justify-between p-10 shadow-xl">
+    <nav class="flex justify-between items-center p-10 shadow-xl">
         <div class="flex items-center gap-2">
             <div class="bg-blue-700 p-2"></div>
-            <p class="text-2xl font-bold font-serif">Bao Duong</p>
-            <p>/</p>
-            <p>SOFTWARE ENGINEER</p>
+            <p class="font-bold text-3xl">Bao</p>
+            <p>/ SOFTWARE ENGINEER</p>
         </div>
         <ul class="flex items-center gap-5">
-            <li><a class="text-blue-500" href="./about.html">ABOUT ME</a></li>
+            <li class="text-blue-600"><a href="./about.html">ABOUT ME</a></li>
             <li><a href="./resume.html">RESUME</a></li>
             <li><a href="./project.html">PROJECTS</a></li>
             <li><a href="./contact.html">CONTACT</a></li>
         </ul>
     </nav>
 
-    <!-- background -->
-    <div class="flex items-center">
-        <img class="background-img blur-sm m-5" src="../img/ca-9.jpg" alt="">
+    <img class="background rounded-sm" src="../Soothing-nature-backgrounds-2.jpg.webp" alt="">
 
-
-        <!-- profile -->
-        <div class="flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            <!-- left profile -->
-            <div class="flex flex-col items-center shadow-xl gap-5 bg-gradient-to-r from-cyan-500 to-blue-500  py-10">
-                <img class="profile-left" src="../img/avatar.png" alt="">
-                <div class="flex flex-col items-center">
-                    <p class="text-3xl text-white font-bold font-serif">Bao</p>
-                    <p class="text-3xl text-white font-bold font-serif">Duong</p>
-                </div>
-                <div class="bg-blue-700 py-0.5 px-6"></div>
-                <h1 class="font-mono text-white text-3xl">SOFTWARE ENGINEER</h1>
+    <!-- profile -->
+    <div class="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center shadow-xl absolute">
+        <!-- left profile -->
+        <div class="flex flex-col items-center gap-5 bg-gradient-to-r from-cyan-500 to-indigo-400 p-5">
+            <img src="../index.png" alt="">
+            <div class="flex flex-col items-center">
+                <p class="font-bold text-3xl text-white">Bao</p>
+                <p class="font-bold text-3xl text-white">Duong</p>
             </div>
+            <div class="py-0.5 px-5 bg-blue-700"></div>
+            <p class="font-mono text-3xl text-white">SOFTWARE ENGINEER</p>
+        </div>
 
-            <!-- right profile -->
-            <div class="flex flex-col gap-5 bg-white p-10">
-                <div class="flex flex-col gap-5">
-                    <h1 class="text-7xl font-bold">Hello</h1>
-                    <h2 class="text-2xl">Here's who I am & what I do</h2>
-                </div>
-                <div class="flex items-center gap-5">
-                    <button
-                        class="bg-blue-700 text-white rounded-3xl border-2 border-blue-700 px-10 py-2 hover:text-black hover:bg-white  hover:border-2 hover:border-blue-700 duration-500 shadow-xl"><a
-                            href="./resume.html">RESUME</a></button>
-                    <button
-                        class="bg-white text-black rounded-3xl border-2 border-black px-10 py-2 hover:text-white hover:bg-blue-700  hover:border-2 hover:border-blue-700 duration-500 shadow-xl"><a
-                            href="./project.html">PROJECTS</a></button>
-                </div>
-                <p>
-                    I'm a paragraph. Click here to add your own text
-                    <br>
-                    and edit me. It’s easy. Just click “Edit Text” or
-                    <br>
-                    double click me to add your own content and
-                    <br>
-                    make changes to the font.
-                </p>
-                <p>
-                    I’m a great place for you to tell a story and let
-                    <br>
-                    your users know a little more about you.
-                </p>
+        <!-- right profile -->
+        <div class="flex flex-col gap-5 pl-10 bg-white py-5">
+            <h1 class="font-bold text-7xl">Hello</h1>
+            <h2 class="text-3xl">Here's who I am & what I do</h2>
+            <div>
+                <button
+                    class="text-white bg-blue-700 px-10 py-2 rounded-3xl border-2 border-blue-700 hover:border-2 hover:border-black hover:bg-white hover:text-black duration-500">
+                    <a href="./resume.html">RESUME</a>
+                </button>
+                <button
+                    class="text-white bg-blue-700 px-10 py-2 rounded-3xl border-2 border-blue-700 hover:border-2 hover:border-black hover:bg-white hover:text-black duration-500">
+                    <a href="./project.html">PROJECT</a>
+                </button>
             </div>
+            <p>I'm a paragraph. Click here to add your own text
+                <br>
+                and edit me. It’s easy. Just click “Edit Text” or <br>
+                double click me to add your own content and <br>make
+                changes to the font.
+            </p>
+            <p>
+                I’m a great place for you to tell a story and let <br> your users know a little more about you.
+            </p>
         </div>
     </div>
 </body>
